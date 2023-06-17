@@ -1,0 +1,1241 @@
+@charset "utf-8";
+/* Author: Angela Iredia*/
+
+header{
+	width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  width: 100%;
+  background-color: white;
+  
+}
+
+h1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 100px;
+	padding-top: 5%;
+	text-shadow: 2px 7px #000000;
+	width: 100%;
+}
+
+h2{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	color:#171219;
+	font-weight: bold;
+	font-size: 60px;
+	padding-top: 5%;
+	/*text-shadow: 2px 7px #000000;*/
+	width: 100%;
+}
+
+h3{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	/*color:#171219;*/
+	font-weight: bold;
+	font-size: 28px;
+	/*padding-top: 5%;*/
+	/*text-shadow: 2px 7px #000000;*/
+	width: 100%;
+}
+.description_section{
+    padding-bottom: 2%;
+	padding-top: 2%;
+	margin-top: 1%;
+    margin-left: 20%;
+	margin-right: 20%;
+	background-color: #A245FF; 
+	color: #FFFFFF;
+	border-radius: 4%;
+
+	
+}
+.description_me{
+	font-size: 16px;
+	}
+.image_description{
+	height: 150px;
+}
+
+.portfolio-category-1{
+	background-image: url("../images/angelairedia_portfolio-website-development.png");
+	opacity: 75%;
+	background-position: center;
+	background-color: #176197;
+	color: #FFFFFF;
+	border-color: #B1B1B1;
+	padding: 3%;
+	margin-bottom: 3%;	
+	}
+
+.portfolio-category-1:hover{
+	opacity: 100%;
+}
+
+.portfolio-category-2{
+	background-image: url("../images/angelairedia_portfolio-3D modelling.png");
+	opacity: 75%;
+	background-position: center;
+	background-color: #256236;
+	color: #FFFFFF;
+	border-color: #B1B1B1;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 3%;	
+	}
+.portfolio-category-2:hover{
+	opacity: 100%;
+}
+
+.portfolio-category-3{
+	background-image: url("../images/angelairedia_portfolio-UX Design.png");
+	opacity: 75%;
+	background-position: center;
+	background-color:#E017AA;
+	color: #FFFFFF;
+	border-color: #B1B1B1;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 26%;
+	padding-right: 26%;
+	margin-bottom: 3%;
+	}
+
+.portfolio-category-3:hover{
+	opacity: 100%;
+}
+
+.parallax_p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	color:#171219;
+	padding-top: 2%;
+	font-size: 30px;
+	font-weight: 500;
+	/*text-shadow: 2px 4px #000000;*/
+	width: 100%;
+}
+
+
+.parallax {
+  background-image: url("../images/angelairedia_portfolio.png");
+  background-color: #FFFFFF;
+  color: #0A0C17;
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+}
+
+.section_banner{
+	height:1150px;
+	background-color:#FFFFFF;
+	color: #000000;
+	font-size:36px;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+.parallax_1 {
+  background-image: url("../images/angelairedia_portfolio_aboutme.png");
+  background-color: #FFFFFF;
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+}
+
+.section_banner_1{
+	height:900px;
+	background-color:#FFFFFF;
+	font-size:36px;
+	color: #000000;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+.section_banner_1 p{
+	text-align: justify;
+    text-align-last: center;
+	font-size: 20px;
+}
+
+.parallax_2 {
+  background-image: url("../images/angelairedia_portfolio_portfolio.png");
+  background-color: #FFFFFF;
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+}
+
+.section_banner_2{
+	height:900px;
+	background-color:#FFFFFF;
+	font-size:36px;
+	color: #000000;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+.parallax_3 {
+  background-image: url("../images/angelairedia_portfolio_contact.png");
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+}
+
+.section_banner_3{
+	height:950px;
+	background-color:#EBEBEB;
+	font-size:36px;
+	color: #000000;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  margin:0;
+  width: 100%;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  /*color: #f2f2f2;*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #b366ff;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+footer {
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  background-color: #3D3D3D;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  
+}
+.links a { 
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /*padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.links a:hover {
+  color: #4765DB;
+}
+.links a.active {
+  color: white;
+}
+
+.logo{
+	height: 50px;
+	float: right;
+	padding-right: 5%;
+	padding-bottom: 0.25%;
+	padding-top: 0.25%;
+	margin: 0;
+}
+.email-contact-form{
+	position: relative;
+  	overflow: hidden;
+  	width: 100%;
+	padding-top: 56.25%;
+	padding-bottom: 50%;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.contact-email-form{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar{
+	height: 300px;
+	padding-left: 39%;
+	margin: 0;
+}
+.footer_img{
+	height: 70px;
+}
+
+
+.parallax_3Dmodelling {
+  background-image: url("../images/angelairedia_portfolio-3D modelling-1.png");
+  background-color: #FFFFFF;
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+}
+
+.parallax_website_software_dev {
+	background-image: url("../images/angelairedia_portfolio-website-software development.jpg");
+	background-color: #FFFFFF;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+  }
+
+
+.parallax_3Dmodelling-winx {
+	background-image: url("../images/angelairedia_dark bloom_cover.png");
+	
+	background-color: #711206;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+  }
+
+  .parallax_3Dmodelling-bridgette-total-drama {
+	background-image: url("../images/angelairedia_bridgette_cover.gif");
+	background-position: center;
+	background-color: #ffffff;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+  }
+
+  .parallax_3Dmodelling-courtney-total-drama {
+	background-image: url("../images/angelairedia_courtney_cover.gif");
+	background-position: center;
+	background-color: #ffffff;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+  }
+
+  .parallax_3Dmodelling-darcy-winx {
+	background-image: url("../images/angelairedia_darcy_cover-1.gif");
+	background-position-y: 10%;
+	background-color: #ffffff;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+  }
+
+.parallax_MBTI{
+	background-image: url("../images/angelairedia_portfolio-website-software development-MBTI.png");
+	
+	background-color: #000000;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+}
+
+.parallax_Historal{
+	background-image: url("https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-72e5e55/images/wonders-of-the-world-collage.jpg");
+	
+	background-color: #000000;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+}
+
+.parallax_Kent_Maps{
+	background-image: url("https://www.scribblemaps.com/api/maps/images/PokemonGoKent_thumb_1200x630.jpg");
+	
+	background-color: #000000;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+}
+
+.index{
+	margin-bottom: 10%;
+	padding-left: 1%;
+
+}
+
+.index a{
+	text-decoration: none;
+	font-weight: 500;
+	color: #000000;
+	}
+
+.index a:hover{
+	text-decoration: none;
+	color: #3e9cff;
+	font-weight: 500;
+	}
+	
+.list-items a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	}
+
+.list-items a:hover{
+	text-decoration: none;
+	color: #3e9cff;
+	font-weight: 500;
+	}
+
+
+
+.article-header{
+	text-align: left;
+	padding-left: 1%;
+	text-align: center;
+}
+
+.article-sub-heading{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.back_button a{
+	text-decoration: none; 
+	color: #000; 
+	padding-left: 2%;
+}
+
+.back_button a:hover{
+	color: #477ae8;
+}
+
+.sketchfab-caption{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-size: 13px; 
+	font-weight: normal; 
+	color: #272727;
+	font-size: 15px;
+}
+
+.sketchfab-embed-wrapper{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top:56.25%;
+  padding-bottom: 50%;
+
+}
+
+
+.view-modelling{
+	position: absolute;
+	top: 0;
+	left: 8%;
+	bottom: 0;
+	right: 0;
+	width: 85%;
+	height: 40%;
+}
+
+.youtube-video-wrapper{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%;
+}
+
+
+.view-youtube{
+	position: absolute;
+	top: 0;
+	left: 23%;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+
+}
+
+.explanation-section{
+	padding-bottom: 2%;
+	padding-top: 2%;
+    margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20%;
+	padding-left: 1%;
+	background-color: #b366ff; 
+	color: #FFFFFF;
+	border-radius: 2%;
+}
+
+.article-text{
+	padding: 2%;
+	align-items: center;
+	align-content: center;
+	
+}
+
+.video-demo {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%; 
+  }
+  
+  .software-dev-vid {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+  .arrow-index {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+  }
+
+  .arrow {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+  }
+  
+  .arrow-2 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	
+	transition: transform 0.3s ease;
+  }
+
+  .arrow-3 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+  }
+  
+
+  .closed {
+	transform: rotate(225deg);
+  }
+
+  .profile_pic{
+	height: 300px;
+  }
+
+  
+
+
+@media screen and (max-width: 280px) { /*Galaxy Fold ex */
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+	.parallax {
+	 min-height: 600px; 
+}
+	.image_description{
+		max-height: 100px;
+	}
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 20px;
+		padding-top: 40%;
+	}
+	
+	h3{
+		font-size: 12px;
+	}
+	
+	.description_section{
+    padding-bottom: 2%;
+	padding-top: 5%;
+	margin-top: 1%;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	.description_me{
+		font-size: 5px;
+	}
+	.parallax_p{
+		font-size: 15px;
+	}
+	.parallax_1 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
+	}
+		.parallax_2 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_portfolio_mobile.png");
+	}
+		.parallax_3{
+		min-height: 600px;
+	}
+		.parallax_4 {
+		min-height: 600px;
+	}
+	.section_banner{
+		padding-top: 5%;
+		font-size: 16px;
+	}
+	
+	.section_banner_1{
+		font-size: 8px;
+		padding-top: 5%;
+	}
+
+	.section_banner_1 p{
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.section_banner_2{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+
+	.section_banner_2 p{
+		font-size: 14px;
+	}
+
+	.section_banner_3{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.section_banner_4{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.email-contact-form{
+		padding-bottom: 90%;
+	}
+	
+	
+	
+	footer{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		width: 100%;
+	}
+
+	.logo{
+	float: right;
+	padding-right: 20%;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	height: 40px;
+}
+	.avatar{
+	padding-left: 18%;
+	height: 200px;
+}
+
+.portfolio-category-2{
+	padding-left: 6.5%;
+	padding-right: 6.5%;
+}
+	
+	
+	.footer_img{
+		height: 50px;
+	}
+	
+	.parallax_3Dmodelling {
+		background-position: center;
+	}
+
+	.parallax_3Dmodelling-bridgette-total-drama{
+		background-position:30%;
+	}
+
+	.parallax_3Dmodelling-courtney-total-drama{
+		background-position:60%;
+	}
+	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+	}
+	
+
+
+.view-modelling{
+	height: 45%;
+}
+
+.parallax_3Dmodelling-winx {
+	background-position: center;
+}
+	.explanation-section{
+    padding-bottom: 2%;
+	padding-top: 5%;
+	margin-top: 1%;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+
+	.sketchfab-caption{
+		font-size: 8px;
+	}
+
+	.profile_pic{
+		height: 150px;
+	  }
+	
+
+	
+
+}
+
+@media screen and (min-width:281px) and (max-width: 539px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+	.parallax {
+	 min-height: 600px; 
+}
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 30px;
+		padding-top: 40%;
+	}
+	
+	h3{
+		font-size: 15px;
+	}
+	
+	.description_section{
+    padding-bottom: 2%;
+	padding-top: 5%;
+	margin-top: 1%;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	.description_me{
+		font-size: 6px;
+	}
+	.image_description{
+		max-height: 100px;
+	}
+	.parallax_p{
+		font-size: 15px;
+	}
+	.parallax_1 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
+	}
+		.parallax_2 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_portfolio_mobile.png");
+	}
+		.parallax_3{
+		min-height: 600px;
+	}
+		.parallax_4 {
+		min-height: 600px;
+	}
+	.section_banner{
+		padding-top: 5%;
+		font-size: 16px;
+		height: 1200px;
+	}
+	
+	.section_banner_1{
+		font-size: 16px;
+		padding-top: 5%;
+		height: 1100px;
+	}
+
+	.section_banner_1 p{
+		text-align: center;
+		font-size: 15px;
+	}
+	.section_banner_2{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.section_banner_2 p{
+		font-size: 14px;
+	}
+	.section_banner_3{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.section_banner_4{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.email-contact-form{
+		padding-bottom: 90%;
+	}
+	
+	footer{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		width: 100%;
+	}
+	.portfolio-category-2{
+		padding-left: 5.5%;
+		padding-right: 5.5%;
+	}
+	.portfolio-category-3{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.index{
+		text-align: center;
+	}
+
+	.logo{
+	float: right;
+	padding-right: 20%;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	height: 40px;
+}
+	.avatar{
+	padding-left: 25%;
+	height: 200px;
+}
+	
+	.footer_img{
+		height: 50px;
+	}
+	
+	.parallax_3Dmodelling {
+		background-position: center;
+	}
+	
+	.article-header{
+		font-size: 20px;
+}
+
+.parallax_3Dmodelling-winx {
+	background-position: center;
+}
+
+.parallax_3Dmodelling-bridgette-total-drama{
+	background-position:30%;
+}
+
+.parallax_3Dmodelling-courtney-total-drama{
+	background-position:60%;
+}
+
+.parallax_3Dmodelling-darcy-winx{
+	background-position:45%;
+}
+	
+	.explanation-section{
+    padding-bottom: 2%;
+	padding-top: 5%;
+	margin-top: 1%;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	.sketchfab-caption{
+		font-size: 10px;
+	}
+
+	.profile_pic{
+		height: 150px;
+	  }
+	
+}
+
+
+@media screen and (min-width:540px) and (max-width: 600px) { /*ex. SurfaceDuo*/
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+	.parallax {
+	 min-height: 600px; 
+}
+	.section_banner{
+		height: 1500px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 30px;
+		padding-top: 30%;
+	}
+	
+	h3{
+		font-size: 20px;
+	}
+	
+	.description_section{
+    padding-bottom: 2%;
+	padding-top: 3%;
+	margin-top: 1%;
+    margin-left: 17%;
+	margin-right: 13%;
+	}
+	
+	.description_me{
+		font-size: 8px;
+	}
+	.parallax_p{
+		font-size: 15px;
+	}
+	.parallax_1 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
+	}
+		.parallax_2 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_portfolio_mobile.png");
+	}
+		.parallax_3{
+		min-height: 600px;
+	}
+		.parallax_4 {
+		min-height: 600px;
+	}
+	.section_banner{
+		padding-top: 5%;
+		font-size: 16px;
+	}
+	
+	.section_banner_1{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.section_banner_2{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.section_banner_3{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	.section_banner_4{
+		font-size: 16px;
+		padding-top: 5%;
+	}
+	footer{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		width: 100%;
+	}
+
+	.portfolio-category-3{
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.logo{
+	float: right;
+	padding-right: 20%;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	height: 40px;
+}
+	.avatar{
+	padding-left: 35%;
+	height: 200px;
+}
+	
+	.footer_img{
+		height: 50px;
+	}
+	
+	.parallax_3Dmodelling {
+		background-position: center;
+	}
+	
+
+
+	.parallax_3Dmodelling-winx {
+		background-position: center;
+	}
+
+	.parallax_3Dmodelling-bridgette-total-drama{
+		background-position:20%;
+	}
+
+	.parallax_3Dmodelling-courtney-total-drama{
+		background-position:60%;
+	}
+
+	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+	}
+	
+	.explanation-section{
+    padding-bottom: 2%;
+	padding-top: 3%;
+	margin-top: 1%;
+    margin-left: 17%;
+	margin-right: 13%;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  	.parallax_1 {
+		min-height: 600px;
+		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
+		background-color: #FFFFFF;
+	}
+	.section_banner{
+		max-height: 1100px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	
+	.description_section{
+    padding-bottom: 2%;
+	padding-top: 3%;
+	margin-top: 1%;
+    margin-left: 22%;
+	margin-right: 18%;
+	}
+	
+	.description_me{
+		font-size: 10px;
+	}
+	.image_description{
+		max-height: 200px;
+	}
+	.avatar{
+	padding-left: 34%;
+}
+	
+	.index{
+	text-align: center;
+	}
+	
+	.parallax_3Dmodelling {
+		background-position: center;
+	}
+
+
+	.parallax_3Dmodelling-winx {
+		background-position: center;
+	}
+	.explanation-section{
+    padding-bottom: 2%;
+	padding-top: 3%;
+	margin-top: 1%;
+    margin-left: 22%;
+	margin-right: 18%;
+	}
+
+	.parallax_3Dmodelling-bridgette-total-drama{
+		background-position:20%;
+	}
+
+	.parallax_3Dmodelling-courtney-total-drama{
+		background-position:60%;
+	}
+
+	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+	}
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.avatar{
+	padding-left: 36%;
+}
+	h3{
+		font-size: 30px;
+	}
+	
+	.description_section{
+    padding-bottom: 2%;
+	padding-top: 3%;
+	margin-top: 1%;
+    margin-left: 17%;
+	margin-right: 13%;
+	}
+	.portfolio-category-3{
+		padding-left:30%;
+		padding-right:30%;
+	}
+	
+	.description_me{
+		font-size: 12px;
+	}
+	.email-contact-form{
+		padding-bottom: 75%;
+	}
+	.index{
+		text-align: center;
+	}
+	.parallax_3Dmodelling {
+		background-position: center;
+	}
+	
+
+	.parallax_3Dmodelling-winx {
+		background-position: center;
+	}
+
+	.parallax_3Dmodelling-bridgette-total-drama{
+		background-position:20%;
+	}
+
+	.parallax_3Dmodelling-courtney-total-drama{
+		background-position:60%;
+	}
+
+	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+	}
+
+	.explanation-section{
+    padding-bottom: 2%;
+	padding-top: 3%;
+	margin-top: 1%;
+    margin-left: 17%;
+	margin-right: 13%;
+	}
+
+
+}
