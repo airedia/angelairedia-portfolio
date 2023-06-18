@@ -897,16 +897,12 @@ footer {
     padding-bottom: 2%;
 	padding-top: 5%;
 	margin-top: 1%;
-    margin-left: 4%;
-	margin-right: 4%;
+    margin-left: 10%;
+	margin-right: 10%;
 	}
 	
 	.description_me{
-		font-size: 8px;
-		text-align: justify;
-    		hyphens: auto;
-		text-align-last: center;
-		line-height: 1.5;
+		font-size: 6px;
 	}
 	.description_me_1{
 	font-size: 14px;
