@@ -740,6 +740,9 @@ footer {
 	.description_me{
 		font-size: 5px;
 	}
+	.description_me_1{
+	font-size: 12px;
+	} 
 	.parallax_p{
 		font-size: 15px;
 	}
@@ -901,6 +904,9 @@ footer {
 	.description_me{
 		font-size: 6px;
 	}
+	.description_me_1{
+	font-size: 12px;
+	} 
 	.image_description{
 		max-height: 100px;
 	}
@@ -1066,6 +1072,9 @@ footer {
 	.description_me{
 		font-size: 8px;
 	}
+	.description_me_1{
+	font-size: 12px;
+	} 
 	.parallax_p{
 		font-size: 15px;
 	}
