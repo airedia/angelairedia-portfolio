@@ -65,6 +65,10 @@ h3{
 .description_me{
 	font-size: 16px;
 	}
+.description_me_1{
+	font-size: 16px;
+	} 
+
 .image_description{
 	height: 150px;
 }
@@ -756,6 +760,7 @@ footer {
 	.section_banner{
 		padding-top: 5%;
 		font-size: 16px;
+		height: 1900px;
 	}
 	
 	.section_banner_1{
@@ -919,7 +924,7 @@ footer {
 	.section_banner{
 		padding-top: 5%;
 		font-size: 16px;
-		height: 1200px;
+		height: 1900px;
 	}
 	
 	.section_banner_1{
@@ -1081,6 +1086,7 @@ footer {
 	.section_banner{
 		padding-top: 5%;
 		font-size: 16px;
+		height: 2000px;
 	}
 	
 	.section_banner_1{
