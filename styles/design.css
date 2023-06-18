@@ -1211,9 +1211,28 @@ footer {
 	.description_me{
 		font-size: 10px;
 	}
+
+
 	.image_description{
 		max-height: 200px;
 	}
+#des-2{
+	margin-top: 15%;
+}
+
+#des-3{
+	margin-top: 15%;
+}
+
+
+#des-4{
+	margin-top: 9%;
+}
+
+#des-6{
+	margin-top: 6%;
+}
+
 	.avatar{
 	padding-left: 34%;
 }
@@ -1276,6 +1295,17 @@ footer {
 	.description_me{
 		font-size: 12px;
 	}
+#des-1{
+		margin-top: 9%;
+}
+
+#des-4{
+	margin-top: 9%;
+}
+
+#des-6{
+	margin-top: 6%;
+}
 	.email-contact-form{
 		padding-bottom: 75%;
 	}
