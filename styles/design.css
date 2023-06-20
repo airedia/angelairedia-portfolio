@@ -1376,5 +1376,11 @@ footer {
 	margin-right: 13%;
 	}
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .parallax {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
 
 }
