@@ -875,7 +875,18 @@ footer {
 	.profile_pic{
 		height: 150px;
 	  }
-	
+
+#text-description-fan, 
+#text-description-fan-1, 
+#text-description-fan-2,
+#text-description-fan-3,
+#text-description-fan-4,
+#text-description-fan-5,
+#text-description-fan-6,
+#text-description-fan-7,
+#text-description-fan-8{
+	font-size:14px;
+}
 
 	
 
@@ -1044,6 +1055,17 @@ footer {
 	.profile_pic{
 		height: 150px;
 	  }
+#text-description-fan, 
+#text-description-fan-1, 
+#text-description-fan-2,
+#text-description-fan-3,
+#text-description-fan-4,
+#text-description-fan-5,
+#text-description-fan-6,
+#text-description-fan-7,
+#text-description-fan-8{
+	font-size:14px;
+}
 	
 }
 
