@@ -17,9 +17,9 @@ body {
 -o-background-size: cover;
 background-size: cover;
 
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
   
 }
 
@@ -168,9 +168,6 @@ h3{
   -moz-background-size: cover;
   -o-background-size: cover;
 
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
 
 }
 
