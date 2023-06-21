@@ -864,6 +864,22 @@ footer {
 		background-position:45%;
 		background-attachment: scroll;
 	}
+
+	.parallax_website_software_dev {
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI{
+		background-attachment: scroll;
+	}
+
+	.parallax_Historal{
+		background-attachment: scroll;
+	}
+
+	.parallax_Kent_Maps{
+		background-attachment: scroll;
+	}
 	
 
 
@@ -1069,7 +1085,23 @@ footer {
 	background-position:45%;
 	background-attachment: scroll;
 }
-	
+
+.parallax_website_software_dev {
+	background-attachment: scroll;
+}
+
+.parallax_MBTI{
+	background-attachment: scroll;
+}
+
+.parallax_Historal{
+	background-attachment: scroll;
+}
+
+.parallax_Kent_Maps{
+	background-attachment: scroll;
+}
+
 	.explanation-section{
     padding-bottom: 2%;
 	padding-top: 5%;
