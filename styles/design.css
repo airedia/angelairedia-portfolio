@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* Author: Angela Iredia*/
 
+@supports (-webkit-touch-callout: inherit) {
+  background-attachment: scroll;
+}
+
+@supports (-webkit-touch-callout: inherit) {
+  background-attachment: fixed;
+}
+
 
 header{
 	width: 100%;
