@@ -1,14 +1,6 @@
 @charset "utf-8";
 /* Author: Angela Iredia*/
 
-@supports (-webkit-touch-callout: inherit) {
-  background-attachment: scroll;
-}
-
-@supports (-webkit-touch-callout: inherit) {
-  background-attachment: fixed;
-}
-
 
 header{
 	width: 100%;
@@ -907,6 +899,11 @@ footer {
 }
 
 @media screen and (min-width:281px) and (max-width: 539px) {
+	
+@supports (-webkit-touch-callout: inherit) {
+  background-attachment: scroll;
+}
+	
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -951,8 +948,7 @@ footer {
 		  
 	}
 
-	.parallax{
-		  background-attachment: scroll;
+
 	}
 	
 	.parallax_1 {
