@@ -899,10 +899,11 @@ footer {
 }
 
 @media screen and (min-width:281px) and (max-width: 539px) {
-	
-@supports (-webkit-touch-callout: inherit) {
-  background-attachment: scroll;
-}
+ @supports (-webkit-touch-callout: inherit) or (-webkit-overflow-scrolling: touch) {
+    body {
+      background-attachment: scroll;
+    }
+  }
 	
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
