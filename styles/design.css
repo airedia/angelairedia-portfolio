@@ -1390,14 +1390,4 @@ footer {
 	}
 
 
-/* Media query targeting iOS devices */
-@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (max-device-width: 1024px) and (min-resolution: 192dpi) {
-  .parallax {
-    background-attachment: scroll;
-    background-size: auto;
-  }
-}
-
-
 }
