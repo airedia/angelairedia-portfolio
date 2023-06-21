@@ -1282,10 +1282,20 @@ footer {
 }
 
 @media screen and (min-width: 601px) and (max-width: 768px) {
-  	.parallax_1 {
+  	.parallax{
+		background-attachment: scroll;
+	}
+	.parallax_1 {
 		min-height: 600px;
 		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
 		background-color: #FFFFFF;
+		background-attachment: scroll;
+	}
+	.parallax_2{
+		background-attachment: scroll;
+	}
+	.parallax_3{
+		background-attachment: scroll;
 	}
 	.section_banner{
 		max-height: 1100px;
@@ -1337,11 +1347,13 @@ footer {
 	
 	.parallax_3Dmodelling {
 		background-position: center;
+		backgrond-attachment: scroll;
 	}
 
 
 	.parallax_3Dmodelling-winx {
 		background-position: center;
+		background-attachment: scroll;
 	}
 	.explanation-section{
     padding-bottom: 2%;
@@ -1353,20 +1365,51 @@ footer {
 
 	.parallax_3Dmodelling-bridgette-total-drama{
 		background-position:20%;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-courtney-total-drama{
 		background-position:60%;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-darcy-winx{
 		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_website_software_dev {
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI{
+		background-attachment: scroll;
+	}
+
+	.parallax_Historal{
+		background-attachment: scroll;
+	}
+
+	.parallax_Kent_Maps{
+		background-attachment: scroll;
 	}
 
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+	.parallax{
+		background-attachment: scroll;
+	}
+	.parallax_1{
+		background-attachment: scroll;
+	}
+	.parallax_2{
+		background-attachment: scroll;
+	}
+	.parallax_3{
+		background-attachment: scroll;
+	}
 	.avatar{
 	padding-left: 36%;
 }
@@ -1408,23 +1451,44 @@ footer {
 	}
 	.parallax_3Dmodelling {
 		background-position: center;
+		background-attachment: scroll;
 	}
 	
 
 	.parallax_3Dmodelling-winx {
 		background-position: center;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-bridgette-total-drama{
 		background-position:20%;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-courtney-total-drama{
 		background-position:60%;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-darcy-winx{
 		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_website_software_dev {
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI{
+		background-attachment: scroll;
+	}
+
+	.parallax_Historal{
+		background-attachment: scroll;
+	}
+
+	.parallax_Kent_Maps{
+		background-attachment: scroll;
 	}
 
 	.explanation-section{
