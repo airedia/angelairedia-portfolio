@@ -727,6 +727,7 @@ footer {
   }
 	.parallax {
 	 min-height: 600px; 
+	 background-attachment: scroll;
 }
 	.image_description{
 		max-height: 100px;
@@ -763,16 +764,20 @@ footer {
 	.parallax_1 {
 		min-height: 600px;
 		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
+		background-attachment: scroll;
 	}
 		.parallax_2 {
 		min-height: 600px;
 		background-image: url("../images/angelairedia_portfolio_portfolio_mobile.png");
+		background-attachment: scroll;
 	}
 		.parallax_3{
 		min-height: 600px;
+		background-attachment: scroll;
 	}
 		.parallax_4 {
 		min-height: 600px;
+		background-attachment: scroll;
 	}
 	.section_banner{
 		padding-top: 5%;
@@ -843,17 +848,21 @@ footer {
 	
 	.parallax_3Dmodelling {
 		background-position: center;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-bridgette-total-drama{
 		background-position:30%;
+		background-attachment: scroll;
 	}
 
 	.parallax_3Dmodelling-courtney-total-drama{
 		background-position:60%;
+		background-attachment: scroll;
 	}
 	.parallax_3Dmodelling-darcy-winx{
 		background-position:45%;
+		background-attachment: scroll;
 	}
 	
 
@@ -864,6 +873,7 @@ footer {
 
 .parallax_3Dmodelling-winx {
 	background-position: center;
+	background-attachment: scroll;
 }
 	.explanation-section{
     padding-bottom: 2%;
@@ -893,17 +903,9 @@ footer {
 #text-description-fan-9{
 	font-size:14px;
 }
-
-	
-
 }
 
 @media screen and (min-width:281px) and (max-width: 539px) {
- @supports (-webkit-touch-callout: inherit) or (-webkit-overflow-scrolling: touch) {
-    body {
-      background-attachment: scroll;
-    }
-  }
 	
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -949,22 +951,27 @@ footer {
 		  
 	}
 
-
+	.parallax{
+		background-attachment: scroll;
 	}
 	
 	.parallax_1 {
 		min-height: 600px;
 		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
+		background-attachment: scroll;
 	}
 		.parallax_2 {
 		min-height: 600px;
 		background-image: url("../images/angelairedia_portfolio_portfolio_mobile.png");
+		background-attachment: scroll;
 	}
 		.parallax_3{
 		min-height: 600px;
+		background-attachment: scroll;
 	}
 		.parallax_4 {
 		min-height: 600px;
+		background-attachment: scroll;
 	}
 	.section_banner{
 		padding-top: 5%;
@@ -1036,6 +1043,7 @@ footer {
 	
 	.parallax_3Dmodelling {
 		background-position: center;
+		background-attachment: scroll;
 	}
 	
 	.article-header{
@@ -1044,18 +1052,22 @@ footer {
 
 .parallax_3Dmodelling-winx {
 	background-position: center;
+	background-attachment: scroll;
 }
 
 .parallax_3Dmodelling-bridgette-total-drama{
 	background-position:30%;
+	background-attachment: scroll;
 }
 
 .parallax_3Dmodelling-courtney-total-drama{
 	background-position:60%;
+	background-attachment: scroll;
 }
 
 .parallax_3Dmodelling-darcy-winx{
 	background-position:45%;
+	background-attachment: scroll;
 }
 	
 	.explanation-section{
@@ -1086,7 +1098,6 @@ footer {
 }
 	
 }
-
 
 @media screen and (min-width:540px) and (max-width: 600px) { /*ex. SurfaceDuo*/
   .topnav a:not(:first-child) {display: none;}
