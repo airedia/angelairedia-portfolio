@@ -948,7 +948,13 @@ footer {
 	}
 	.parallax_p{
 		font-size: 15px;
+		  
 	}
+
+	.parallax{
+		  background-attachment: scroll;
+	}
+	
 	.parallax_1 {
 		min-height: 600px;
 		background-image: url("../images/angelairedia_portfolio_aboutme_1.png");
