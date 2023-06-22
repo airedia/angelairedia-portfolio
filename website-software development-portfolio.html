@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function handleParallaxForMobile() {
     var parallaxElement = document.querySelector('.parallax_website_software_dev');
     var contentBelowElement = document.querySelector('.section-a');
-  
+    var navigationBar = document.getElementById('myTopnav');
     var navigationBarHeight = navigationBar.offsetHeight;
     var lastScrollPosition = 0;
   
@@ -234,7 +234,19 @@ document.addEventListener("DOMContentLoaded", function() {
         contentBelowElement.style.transform = 'translateY(0)';
       }
   
-
+      // Handle navigation bar transformation
+      if (scrollPosition >= parallaxElement.offsetTop) {
+        navigationBar.style.transform = 'translateY(0)';
+      } else {
+        navigationBar.style.transform = 'translateY(-' + navigationBarHeight + 'px)';
+      }
+  
+      // Reset navigation bar transformation on scroll direction change
+      if (scrollPosition < lastScrollPosition) {
+        navigationBar.style.transform = 'translateY(0)';
+      }
+  
+      lastScrollPosition = scrollPosition;
     }
   }
   
@@ -259,7 +271,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
   
   </script>
-
 
 	
 <div id="MBTI">
