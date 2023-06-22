@@ -562,7 +562,7 @@ function handleParallaxForMobile() {
 
   function handleParallax() {
     var scrollPosition = window.pageYOffset;
-    var parallaxOffset = (scrollPosition - parallaxElement.offsetTop) * 0.4;
+    var parallaxOffset = (scrollPosition - parallaxElement.offsetTop) * 0.005;
 
     if (scrollPosition >= parallaxElement.offsetTop) {
       parallaxElement.style.transform = 'translateY(' + parallaxOffset + 'px)';
