@@ -276,10 +276,6 @@ h3{
 	width: 100%;
 }
 
-#myTopnav {
-  transition: transform 0.3s ease;
-  transform: translateY(0);
-}
 
 
 .topnav {
