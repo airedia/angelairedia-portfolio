@@ -1039,7 +1039,7 @@ footer {
 		padding-right: 20%;
 	}
 	.index{
-		text-align: center;
+		text-align: left;
 	}
 
 	.logo{
@@ -1343,7 +1343,7 @@ footer {
 }
 	
 	.index{
-	text-align: center;
+	text-align: left;
 	}
 	
 	.parallax_3Dmodelling {
@@ -1448,7 +1448,7 @@ footer {
 		padding-bottom: 75%;
 	}
 	.index{
-		text-align: center;
+		text-align: left;
 	}
 	.parallax_3Dmodelling {
 		background-position: center;
