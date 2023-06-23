@@ -193,10 +193,6 @@ $(".profile_pic").on("contextmenu", function(e) {
 function isMobileDevice() {
   return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 }
-// Check if the device is a mobile device
-function isMobileDevice() {
-  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-}
 
 // Handle the parallax effect for mobile devices
 function handleParallaxForMobile() {
@@ -227,8 +223,8 @@ function handleParallaxForMobile() {
       navigationBar.style.transform = 'translateY(-' + navigationBarHeight + 'px)';
     }
 
-    // Reset navigation bar transformation on scroll direction change
-    if (scrollPosition < lastScrollPosition) {
+    // Reset navigation bar transformation on scroll direction change or reaching the top
+    if (scrollPosition < lastScrollPosition || scrollPosition === 0) {
       navigationBar.style.transform = 'translateY(0)';
     }
 
@@ -254,6 +250,7 @@ if (isMobileDevice()) {
     handleParallaxForMobile();
   }
 }
+
 
 
 </script>
