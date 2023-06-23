@@ -250,15 +250,18 @@ function handleParallaxForMobile() {
   var mq768 = window.matchMedia("(max-width: 768px)");
   var mq1024 = window.matchMedia("(max-width: 1024px)");
 
-  function applyCSSForMediaQueries() {
-    if (mq280.matches || mq539.matches || mq768.matches || mq1024.matches) {
-      navigationBar.style.transition = 'transform 0.3s ease';
-      navigationBar.style.transform = 'translateY(0)';
-    } else {
-      navigationBar.style.transition = '';
-      navigationBar.style.transform = '';
-    }
+function applyCSSForMediaQueries() {
+  if (mq280.matches || mq539.matches || mq768.matches || mq1024.matches) {
+    navigationBar.style.transition = 'transform 0.3s ease';
+    navigationBar.style.transform = 'translateY(0)';
+    contentBelowElement.style.height = '1200px'; // Set height to 1200px
+  } else {
+    navigationBar.style.transition = '';
+    navigationBar.style.transform = '';
+    contentBelowElement.style.height = ''; // Reset to default height
   }
+}
+
 
   // Apply the CSS initially and on window resize
   applyCSSForMediaQueries();
