@@ -217,15 +217,39 @@ function handleParallaxForMobile() {
     }
 
     // Handle navigation bar transformation
-    navigationBar.style.transform = 'translateY(0)';
+    if (scrollPosition >= parallaxElement.offsetTop) {
+      navigationBar.style.transform = 'translateY(0)';
+    } else {
+      navigationBar.style.transform = 'translateY(-' + navigationBarHeight + 'px)';
+    }
 
-    // Reset navigation bar transformation on reaching the top
-    if (scrollPosition === 0) {
+    // Reset navigation bar transformation on scroll direction change
+    if (scrollPosition < lastScrollPosition) {
       navigationBar.style.transform = 'translateY(0)';
     }
 
     lastScrollPosition = scrollPosition;
   }
+
+  // Apply the CSS for media queries
+  var mq280 = window.matchMedia("(max-width: 280px)");
+  var mq539 = window.matchMedia("(max-width: 539px)");
+  var mq768 = window.matchMedia("(max-width: 768px)");
+  var mq1024 = window.matchMedia("(max-width: 1024px)");
+
+  function applyCSSForMediaQueries() {
+    if (mq280.matches || mq539.matches || mq768.matches || mq1024.matches) {
+      navigationBar.style.transition = 'transform 0.3s ease';
+      navigationBar.style.transform = 'translateY(0)';
+    } else {
+      navigationBar.style.transition = '';
+      navigationBar.style.transform = '';
+    }
+  }
+
+  // Apply the CSS initially and on window resize
+  applyCSSForMediaQueries();
+  window.addEventListener('resize', applyCSSForMediaQueries);
 }
 
 // Apply parallax effect for each media query on mobile devices
