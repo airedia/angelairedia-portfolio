@@ -276,6 +276,22 @@ h3{
 	width: 100%;
 }
 
+  .parallax_UX-UI-design{
+	background-image: url("../images/angelairedia_portfolio-UX-UI-design.jpg");
+	background-color: #FFFFFF;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+	  /* Add vendor prefixes for Safari */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  }
+
 
 
 .topnav {
