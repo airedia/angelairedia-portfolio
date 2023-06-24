@@ -905,7 +905,10 @@ footer {
 	.parallax_MBTI{
 		background-attachment: scroll;
 	}
-
+	.parallax_MBTI_1{
+		background-attachment: scroll;
+		background-position-x: 70%;
+	}
 	.parallax_Historal{
 		background-attachment: scroll;
 	}
@@ -1137,6 +1140,11 @@ footer {
 	background-attachment: scroll;
 }
 
+	.parallax_MBTI_1{
+		background-attachment: scroll;
+		background-position-x: 70%;
+	}
+
 .parallax_Historal{
 	background-attachment: scroll;
 }
@@ -1302,6 +1310,10 @@ footer {
 	.parallax_UX-UI-design{
 		background-position: center;
 	}
+
+	.parallax_MBTI_1{
+		background-position-x: 70%;
+	}
 	
 	.explanation-section{
     padding-bottom: 2%;
@@ -1432,6 +1444,11 @@ footer {
 		background-attachment: scroll;
 	}
 
+	.parallax_MBTI_1{
+		background-attachment: scroll;
+		background-position-x: 70%;
+	}
+
 	.parallax_Historal{
 		background-attachment: scroll;
 	}
@@ -1531,6 +1548,11 @@ footer {
 
 	.parallax_MBTI{
 		background-attachment: scroll;
+	}
+
+	.parallax_MBTI_1{
+		background-attachment: scroll;
+		background-position-x: 70%;
 	}
 
 	.parallax_Historal{
