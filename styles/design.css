@@ -292,6 +292,22 @@ h3{
 
   }
 
+.parallax_MBTI_1{
+	background-image: url("https://preview.redd.it/5ef75hfps6z71.png?width=640&crop=smart&auto=webp&s=a48bfb7dc8d44789c575888aac99c94215eaafc9");
+	
+	background-color: #000000;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+	  /* Add vendor prefixes for Safari */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 
 
 .topnav {
