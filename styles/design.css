@@ -750,6 +750,17 @@ footer {
 	transition: transform 0.3s ease;
   }
 
+  .arrow-agile {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+  }
+  
+
   .closed {
 	transform: rotate(225deg);
   }
