@@ -881,6 +881,11 @@ footer {
 	.parallax_Kent_Maps{
 		background-attachment: scroll;
 	}
+
+		.parallax_UX-UI-design{
+		background-attachment: scroll;
+		background-position: center;
+	}
 	
 
 
@@ -1061,6 +1066,11 @@ footer {
 	.parallax_3Dmodelling {
 		background-position: center;
 		background-attachment: scroll;
+	}
+
+	.parallax_UX-UI-design{
+		background-attachment: scroll;
+		background-position: center;
 	}
 	
 	.article-header{
@@ -1257,6 +1267,9 @@ footer {
 	.parallax_3Dmodelling-darcy-winx{
 		background-position:45%;
 	}
+	.parallax_UX-UI-design{
+		background-position: center;
+	}
 	
 	.explanation-section{
     padding-bottom: 2%;
@@ -1394,6 +1407,10 @@ footer {
 	.parallax_Kent_Maps{
 		background-attachment: scroll;
 	}
+	.parallax_UX-UI-design{
+		background-attachment: scroll;
+		background-position: center;
+	}
 
 }
 
@@ -1499,6 +1516,13 @@ footer {
     margin-left: 17%;
 	margin-right: 13%;
 	}
+
+	.parallax_UX-UI-design{
+		background-attachment: scroll;
+		background-position: center;
+	}
+
+}
 
 	
 /* Apply background-attachment: scroll for Apple devices */
