@@ -507,6 +507,23 @@ footer {
   -o-background-size: cover;
   }
 
+ .parallax_3Dmodelling-leshawna-totaldrama {
+	background-image: url("https://media.tenor.com/rOd1MqjqbL0AAAAd/total-drama-leshawna.gif");
+	background-position-y: 10%;
+	background-color: #ffffff;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+	    /* Add vendor prefixes for Safari */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+
+
 .parallax_MBTI{
 	background-image: url("../images/angelairedia_portfolio-website-software development-MBTI.png");
 	
@@ -936,6 +953,11 @@ footer {
 		background-attachment: scroll;
 	}
 
+	.parallax_3Dmodelling-leshawna-totaldrama{
+	background-position:45%;
+	background-attachment: scroll;
+	}
+
 	.parallax_website_software_dev {
 		background-attachment: scroll;
 	}
@@ -1170,6 +1192,11 @@ footer {
 	background-attachment: scroll;
 }
 
+.parallax_3Dmodelling-leshawna-totaldrama{
+	background-position:45%;
+	background-attachment: scroll;
+}
+
 .parallax_website_software_dev {
 	background-attachment: scroll;
 }
@@ -1345,6 +1372,10 @@ footer {
 	.parallax_3Dmodelling-darcy-winx{
 		background-position:45%;
 	}
+
+	.parallax_3Dmodelling-leshawna-totaldrama{
+	background-position:45%;
+	}
 	.parallax_UX-UI-design{
 		background-position: center;
 	}
@@ -1474,6 +1505,11 @@ footer {
 		background-attachment: scroll;
 	}
 
+	.parallax_3Dmodelling-leshawna-totaldrama{
+		background-position:45%;
+		background-attachment: scroll;
+	}
+
 	.parallax_website_software_dev {
 		background-attachment: scroll;
 	}
@@ -1576,6 +1612,11 @@ footer {
 	}
 
 	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-leshawna-totaldrama{
 		background-position:45%;
 		background-attachment: scroll;
 	}
