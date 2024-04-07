@@ -2,6 +2,11 @@
 /* Author: Angela Iredia*/
 
 
+html,body{
+    overflow-x: hidden;
+  }
+
+
 header{
 	width: 100%;
 }
