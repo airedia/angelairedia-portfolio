@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@netlify/functions": "^2.8.2",
+    "@netlify/planetscale": "^1.1.0",
+    "@types/netlify-identity-widget": "^1.9.6",
+    "netlify-identity-widget": "^1.9.2"
+  }
+}
