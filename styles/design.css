@@ -577,6 +577,22 @@ footer {
   -o-background-size: cover;
 }
 
+.parallax_TRBC{
+	background-image: url("../images/nhsoxsci.webp");
+	
+	background-color: #000000;
+	min-height: 700px; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+	  /* Add vendor prefixes for Safari */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 .index{
 	margin-bottom: 10%;
 	padding-left: 1%;
@@ -771,6 +787,16 @@ footer {
   }
 
   .arrow-3 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+  }
+
+  .arrow-4 {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
@@ -1677,4 +1703,4 @@ footer {
 
 	
 
-}
+/*}*/
