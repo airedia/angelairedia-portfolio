@@ -707,6 +707,8 @@
           if (!user) {
             // If no user is logged in, open the login/signup form
             window.netlifyIdentity.open();
+          }else{
+            console.log(user);
           }
         });
 
