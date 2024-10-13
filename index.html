@@ -37,25 +37,6 @@
   <!-- Ajax and Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Netflify authenticator -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    function identityNetflify(){
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-      window.netlifyIdentity.open();
-    }
-
-    identityNetflify();
-  </script>
-
   <!-- image for hambuger menu -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -713,6 +694,24 @@
     </div>
 
   </div>
+  <!-- Netflify authenticator -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    function identityNetflify(){
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+      window.netlifyIdentity.open();
+    }
+
+    identityNetflify();
+  </script>
 </body>
 
 
