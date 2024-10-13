@@ -1,0 +1,8 @@
+# Redirect to index3.html when accessing it if not authenticated
+/index.html    /index.html    302!   Role=user
+
+# Allow the user to access the login route for authentication
+/login    /index3.html    200
+
+# Catch-all rule to serve index.html for other routes
+/*    /index.html    200
