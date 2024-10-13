@@ -702,6 +702,7 @@
   <script>
     function identityNetlify() {
       if (window.netlifyIdentity) {
+        window.netlifyIdentity.init();
         // Initialize the widget and check for the user
         window.netlifyIdentity.on("init", user => {
           if (!user) {
