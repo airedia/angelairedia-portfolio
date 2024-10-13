@@ -775,11 +775,13 @@
         if (!user) {
             // If the user is not authenticated, show the login button
             document.getElementById("login-button").style.display = "inline"; // Show button
+            
         } else {
             // If the user is authenticated, hide the login button and show a welcome message
             document.getElementById("login-button").style.display = "none"; // Hide button
+            document.querySelector("netflify-authenticator").style.display = "none"
             document.getElementById("welcome-message").innerText = `Welcome, ${user.user_metadata.full_name || user.user_metadata.email}!`;
-            document.getElementById("welcome-message").style.display = "block"; // Show welcome message
+            document.getElementById("welcome-message").style.display = "block";
         }
     });
 
@@ -791,7 +793,7 @@
     // Ensure the user is redirected if not logged in
     window.netlifyIdentity.on("login", user => {
         // Refresh the page after login
-        window.location.reload(); // This will allow access to the content on index3.html
+        window.location.reload();
     });
   </script>
 
