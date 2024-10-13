@@ -630,24 +630,25 @@ $(".profile_pic").on("contextmenu", function(e) {
 	  </div>	
        </div> 
 
-       <!-- Netflify authenticator -->
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      <script>
-        function identityNetflify(){
-          if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-              if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                  document.location.href = "/admin/";
-                });
-              }
-            });
+      <!-- Netflify authenticator -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    function identityNetflify(){
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.open();
+            /*window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });*/
           }
-          window.netlifyIdentity.open();
-        }
+        });
+      }
+      window.netlifyIdentity.open();
+    }
 
-        identityNetflify();
-      </script>
+    identityNetflify();
+  </script>
 
        
 
