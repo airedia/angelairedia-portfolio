@@ -1416,25 +1416,27 @@
   </div>
 
   <!-- Netlify authenticator -->
-<script>
-  function identityNetlify() {
-    // Ensure the widget is available
-    if (window.netlifyIdentity) {
-      // Initialize widget and check user status
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          // No user logged in, open the login/signup form
-          window.netlifyIdentity.open();
-        }
-      });
-    }
-  }
+  <script>
+    function identityNetlify() {
+      if (window.netlifyIdentity) {
+        // Initialize the widget and check for the user
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            // If no user is logged in, open the login/signup form
+            window.netlifyIdentity.open();
+          }
+        });
 
-  // Initialize identity logic after page load
-  document.addEventListener("DOMContentLoaded", function() {
-    identityNetlify();
-  });
-</script>
+        // Force initialize the widget
+        window.netlifyIdentity.init();
+      }
+    }
+
+    // Call the function after DOM is loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      identityNetlify();
+    });
+  </script>
 
 
 
