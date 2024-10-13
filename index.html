@@ -697,31 +697,46 @@
     </div>
 
   </div>
+
+  <div class="netflify-authenticator">
+    <style>
+      .netflify-authenticator{
+        background-color:yellow;
+      }
+    </style>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Before accessing my portfolio, please verify your details here:</p>
+        <button id="login-button" style="display: none;">Verify</button> <!-- Initially hidden -->
+        <p id="welcome-message" style="display: none;"></p> <!-- Hidden until authenticated -->
+      </div>
+    </div>
+  </div>
   
   <!-- Netlify authenticator -->
   <script>
-    function identityNetlify() {
-      if (window.netlifyIdentity) {
-        // Initialize the widget and check for the user
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            // If no user is logged in, open the login/signup form
-            window.netlifyIdentity.open();
-          }else{
-            console.log(user);
-          }
-        });
+    // Initialize the Netlify Identity widget
+    window.netlifyIdentity = window.netlifyIdentity || {};
+    window.netlifyIdentity.init();
 
-        // Force initialize the widget
-        window.netlifyIdentity.init();
-      }
-    }
-
-    // Call the function after DOM is loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      identityNetlify();
+    // Check if the user is authenticated
+    window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            // If the user is not authenticated, show the login button
+            document.getElementById("login-button").style.display = "block"; // Show button
+        } else {
+            // If the user is authenticated, hide the login button and show a welcome message
+            document.getElementById("login-button").style.display = "none"; // Hide button
+            document.getElementById("welcome-message").innerText = `Welcome, ${user.user_metadata.full_name || user.user_metadata.email}!`;
+            document.getElementById("welcome-message").style.display = "block"; // Show welcome message
+        }
     });
-  </script>
+
+    // Add event listener to the login button
+    document.getElementById("login-button").addEventListener("click", function() {
+        window.netlifyIdentity.open();
+    });
+</script>
 
 </body>
 
