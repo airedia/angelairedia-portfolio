@@ -698,7 +698,7 @@
 
   </div>
 
-  <div class="netflify-authenticator">
+  <div class="netflify-authenticator" id="authenticationArea">
     <style>
       .netflify-authenticator{
         background-color:rgb(0,0,0,0.5);
@@ -779,9 +779,9 @@
         } else {
             // If the user is authenticated, hide the login button and show a welcome message
             document.getElementById("login-button").style.display = "none"; // Hide button
-            document.querySelector("netflify-authenticator").style.display = "none"
-            document.getElementById("welcome-message").innerText = `Welcome, ${user.user_metadata.full_name || user.user_metadata.email}!`;
-            document.getElementById("welcome-message").style.display = "block";
+            document.getElementById("authenticationArea").style.display = "none";
+            //document.getElementById("welcome-message").innerText = `Welcome, ${user.user_metadata.full_name || user.user_metadata.email}!`;
+           // document.getElementById("welcome-message").style.display = "block";
         }
     });
 
