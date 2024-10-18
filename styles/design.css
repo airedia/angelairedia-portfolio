@@ -984,6 +984,10 @@ footer {
 		background-attachment: scroll;
 	}
 
+	.parallax_TRBC{
+		background-attachment: scroll;
+	}
+
 	.parallax_3Dmodelling-leshawna-totaldrama{
 	background-position:45%;
 	background-attachment: scroll;
@@ -1233,6 +1237,10 @@ footer {
 }
 
 .parallax_MBTI{
+	background-attachment: scroll;
+}
+
+.parallax_TRBC{
 	background-attachment: scroll;
 }
 
@@ -1566,6 +1574,10 @@ footer {
 		background-position: center;
 	}
 
+	.parallax_TRBC{
+		background-attachment: scroll;
+	}
+
 }
 
 
@@ -1672,6 +1684,11 @@ footer {
 	.parallax_Kent_Maps{
 		background-attachment: scroll;
 	}
+
+	.parallax_TRBC{
+		background-attachment: scroll;
+	}
+	
 
 	.explanation-section{
     padding-bottom: 2%;
