@@ -1705,29 +1705,156 @@ footer {
 
 }
 
-	
-/* Apply background-attachment: scroll for Apple devices */
-@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), /* iPhone 6, 7, 8 */
-       only screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 3), /* iPhone X, XS, 11 Pro */
-       only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 3), /* iPhone 6/7/8 Plus, XR, 11, 11 Pro Max */
-       only screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 2),  /* iPhone 5/SE */
-       only screen and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2), /* iPad Portrait */
-       only screen and (max-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2)  /* iPad Landscape */ {
-  	div[style*="background-attachment"] {
-    	background-attachment: scroll !important;
-  	}
-}
+/*for large apple devices */
+@media screen and (min-width: 1025px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
+	.parallax{
+		background-attachment: scroll;
+	}
+	.parallax_1{
+		background-attachment: scroll;
+	}
+	.parallax_2{
+		background-attachment: scroll;
+	}
+	.parallax_3{
+		background-attachment: scroll;
+	}
 
-/*for apple devices */
-@media screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
-	div[style*="background-attachment"] {
-		background-attachment: scroll !important;
+	.parallax_3Dmodelling {
+		background-position: center;
+		background-attachment: scroll;
+	}
+	
+
+	.parallax_3Dmodelling-winx {
+		background-position: center;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-bridgette-total-drama{
+		background-position:20%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-courtney-total-drama{
+		background-position:60%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-leshawna-totaldrama{
+		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_website_software_dev {
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI{
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI_1{
+		background-attachment: scroll;
+		background-position-x: 70%;
+	}
+
+	.parallax_Historal{
+		background-attachment: scroll;
+	}
+
+	.parallax_Kent_Maps{
+		background-attachment: scroll;
+	}
+
+	.parallax_TRBC{
+		background-attachment: scroll;
+	}
+
+	.parallax_UX-UI-design{
+		background-attachment: scroll;
+		background-position: center;
 	}
 }
 
-@media screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 3){
-	div[style*="background-attachment"] {
-		background-attachment: scroll !important;
+@media screen and (min-width: 1025px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 3){
+	.parallax{
+		background-attachment: scroll;
+	}
+	.parallax_1{
+		background-attachment: scroll;
+	}
+	.parallax_2{
+		background-attachment: scroll;
+	}
+	.parallax_3{
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling {
+		background-position: center;
+		background-attachment: scroll;
+	}
+	
+
+	.parallax_3Dmodelling-winx {
+		background-position: center;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-bridgette-total-drama{
+		background-position:20%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-courtney-total-drama{
+		background-position:60%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-darcy-winx{
+		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_3Dmodelling-leshawna-totaldrama{
+		background-position:45%;
+		background-attachment: scroll;
+	}
+
+	.parallax_website_software_dev {
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI{
+		background-attachment: scroll;
+	}
+
+	.parallax_MBTI_1{
+		background-attachment: scroll;
+		background-position-x: 70%;
+	}
+
+	.parallax_Historal{
+		background-attachment: scroll;
+	}
+
+	.parallax_Kent_Maps{
+		background-attachment: scroll;
+	}
+
+	.parallax_TRBC{
+		background-attachment: scroll;
+	}
+
+	.parallax_UX-UI-design{
+		background-attachment: scroll;
+		background-position: center;
 	}
 }
 
