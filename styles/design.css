@@ -1718,19 +1718,6 @@ footer {
   }
 }
 
-/*for apple devices */
-@media screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
-	body [style*="background-attachment"] {
-		background-attachment: scroll !important;
-	}
-}
-
-@media screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 3){
-	div[style*="background-attachment"] {
-		background-attachment: scroll !important;
-	}
-}
-
 	
 
 /*}*/
